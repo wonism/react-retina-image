@@ -1,10 +1,10 @@
 {
-  "name": "react-retina-image",
+  "name": "@wonism/react-retina-image",
   "description": "React component for serving high-resolution images to devices with retina displays",
-  "version": "2.0.5",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "2.0.6",
+  "author": "wonism <yocee57@gmail.com>",
   "bugs": {
-    "url": "https://github.com/KyleAMathews/react-retina-image/issues"
+    "url": "https://github.com/wonism/react-retina-image/issues"
   },
   "dependencies": {
     "array-equal": "^1.0.0",
@@ -34,7 +34,7 @@
   "directories": {
     "example": "examples"
   },
-  "homepage": "https://github.com/KyleAMathews/react-retina-image",
+  "homepage": "https://github.com/wonism/react-retina-image",
   "keywords": [
     "image",
     "react",
@@ -45,10 +45,13 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KyleAMathews/react-retina-image.git"
+    "url": "https://github.com/wonism/react-retina-image.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "./node_modules/.bin/webpack-dev-server"
+  },
+  "publishConfi": {
+    "access": "public"
   }
 }
